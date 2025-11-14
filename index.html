@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGI-Kollen - Skydda din sjukpenninggrundande inkomst</title>
+    <meta name="description" content="Sveriges smartaste app för SGI-skydd under föräldraledighet. Optimera din ledighet och behåll full sjukpenninggrundande inkomst.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #0066CC 0%, #004B87 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%);
+        }
+        
+        .sgi-blue {
+            background-color: #0066CC;
+        }
+        
+        .sgi-dark-blue {
+            background-color: #004B87;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Hero Section -->
+    <section class="hero-gradient min-h-screen flex items-center justify-center px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="mb-8">
+                <img src="/Users/niclasgunnarsson/Development project/Foraldradagar/Foraldradagar/Assets.xcassets/AppIcon.appiconset/icon-ios-1024x1024.png" alt="SGI-Kollen" class="w-24 h-24 mx-auto rounded-2xl shadow-lg">
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                SGI-Kollen
+            </h1>
+            
+            <p class="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
+                Kontrollera din SGI samt få optimerade förslag för att maxa din föräldraledighet.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-6 justify-center mb-12">
+                <a href="https://apps.apple.com/se/app/sgi-kollen/id123456789" 
+                   class="sgi-blue text-white px-8 py-4 rounded-full text-lg font-semibold hover:sgi-dark-blue transition shadow-lg flex items-center justify-center">
+                    <i class="fab fa-apple mr-3"></i>
+                    Ladda ner SGI-Kollen för iOS
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="text-center">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                        SGI-skydd
+                    </h3>
+                    <p class="text-gray-600 text-sm">
+                        Behåll din sjukpenninggrundande inkomst under hela ledigheten
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-chart-line text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                        Optimera din ledighet
+                    </h3>
+                    <p class="text-gray-600 text-sm">
+                        Få smarta förslag för att maximera din föräldraledighet
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">
+                Redo att skydda din SGI?
+            </h2>
+            <p class="text-xl text-gray-600 mb-8">
+                Ladda ner gratis idag och behåll din sjukpenninggrundande inkomst
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="https://apps.apple.com/se/app/sgi-kollen/id123456789" 
+                   class="sgi-blue text-white px-8 py-4 rounded-full text-lg font-semibold hover:sgi-dark-blue transition shadow-lg flex items-center justify-center">
+                    <i class="fab fa-apple mr-3"></i>
+                    Ladda ner SGI-Kollen för iOS
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-8 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-sm mb-2">
+                © 2025 SGI-Kollen | Alla rättigheter reserverade
+            </p>
+            <p class="text-xs text-gray-500">
+                Beräkningar bygger på regler från Försäkringskassan, men observera att vi är en fristående app och inte kopplad till myndigheten.
+            </p>
+            <div class="mt-4 space-x-4">
+                <a href="terms.html" class="text-xs text-gray-400 hover:text-white transition">Användarvillkor</a>
+                <a href="privacy.html" class="text-xs text-gray-400 hover:text-white transition">Integritetspolicy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</body>
+</html>
